@@ -9,9 +9,9 @@
 * Backend: PHP, Google-Api
 
 # Snapshots
-* login screen
-![HOME SCREEN](snapshots/home.png)
 * Home screen
+![HOME SCREEN](snapshots/home.png)
+* Login screen
 ![LOGIN SCREEN](snapshots/login.png)
-* Add Order screen
+* Dashboard screen
 ![YOUR DASHBOARD SCREEN](snapshots/welcome.png)
