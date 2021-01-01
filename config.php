@@ -15,10 +15,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('619289382967-onm730mo4t37hc3qsi658ndm11l2tno3.apps.googleusercontent.com');
+$google_client->setClientId('');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('AMS9ZMuQs3nd3heuNispzHR9');
+$google_client->setClientSecret('');
 
 
 //Set the OAuth 2.0 Redirect URI

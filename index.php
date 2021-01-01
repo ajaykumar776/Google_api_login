@@ -90,7 +90,7 @@ if(!isset($_SESSION['access_token']))
                 <div class="panel panel-default">
                     <?php
                         if($login_button == ''){
-                            echo '<div class="panel-heading">Welcome User</div><div class="panel-body"><br>';
+                            echo '<div class="panel-heading">Welcome '.$_SESSION['user_first_name'].'</div><div class="panel-body"><br>';
                             echo '<img src="'.$_SESSION["user_image"].'" class="img-responsive img-circle img-thumbnail" /><br><br>';
                             echo '<h5><b>Name :</b> '.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'</h5> <br>';
                             echo '<h5><b>Email :</b> '.$_SESSION['user_email_address'].'</h5><br>';
